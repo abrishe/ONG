@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url("image.png");
+
+}
+
+body {
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.imagen_contacto {
+ display: flex;
+ justify-content: center;
+  width: 564px;
+  height: 151px;
+
+  margin-left: 120px;
+
+
+}
+
+.logo {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 8px;
+  width: 80px;
+  height: 80px;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  width: 200px;
+  height: 100%;
+  background: #011322;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li {
+  padding: 15px;
+  border-bottom: 1px solid #157418;
+  border-bottom: 1px solid rgba(241, 218, 218, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wrapper .sidebar ul li a {
+  color: #bdb8d7;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas {
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+  background-color: #3b1990;
+
+}
+
+.wrapper .sidebar ul li:hover a {
+  color: #fff;
+}
+
+.wrapper .sidebar .social_media {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a {
+  display: block;
+  width: 40px;
+  background: #4c22d6;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px 6px;
+  color: #8880a4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content {
+  width: 100%;
+
+
+}
+
+
+.wrapper .main_content .header {
+  padding: 20px;
+  background: #fff;
+  color: #ffffff;
+  border-bottom: 1px solid #e0e4e8;
+
+  position: block;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.wrapper .main_content .info {
+  margin: 20px;
+  color: #000000;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div {
+  margin-bottom: 20px;
+}
+
+@media (max-height: 500px) {
+  .social_media {
+    display: none !important;
+  }
+}
+
+.colabora_con_nosotros {
+  margin-top: 100px;
+  margin-left: 30%;
+  width: 550px;
+  height: 39px;
+  left: 503px;
+  top: 157px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_content_article {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.colabora_con_nosotros h3 {
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+
+
+}
+
+.contenido_central_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  height: 242px;
+  left: 456px;
+  top: 247px;
+}
+
+.contenido_central_home h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+
+.contenido_central_home p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+}
+
+.contenido_central_home_extra {
+  width: 632px;
+
+}
+
+.titulo_cuanto_quieres_aportar {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+
+
+}
+
+.titulo_cuanto_quieres_aportar h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.border_numbers_doce {
+  background-color: rgba(217, 217, 217, 1);
+
+  width: 226px;
+  margin-top: 1.5em;
+
+}
+
+.border_numbers_doce:hover {
+
+  background-color: #da8dfd;
+  margin-top: 1.5em;
+
+}
+
+.precio_aportar_doce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4em;
+    
+  flex-wrap: wrap;
+  height: 123px;
+  left: 665px;
+  top: 518px;
+}
+
+.ahora_tus_datos {
+  text-align: center;
+  margin-top: 90px;
+    
+}
+
+.precio_aportar_doce h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_doce p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+
+}
+
+/* 
+.precio_aportar_veinte {
+ 
+  width: 226px;
+  height: 123px;
+  left: 422px;
+  top: 518px;
+
+  background: #D9D9D9;
+}
+
+.precio_aportar_veinte:hover {
+  background: #b0a3db;
+  color: white;
+}
+
+.precio_aportar_veinte p {
+
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_veinte h3 {
+
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_cuarenta {
+
+  width: 226px;
+  height: 123px;
+  left: 908px;
+  top: 518px;
+
+  background: #D9D9D9;
+}
+
+.precio_aportar_cuarenta:hover {
+  background: #b0a3db;
+  color: white;
+}
+
+.precio_aportar_cuarenta h3 {
+
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_cuarenta p {
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_sesenta {
+
+  width: 226px;
+  height: 123px;
+  left: 1142px;
+  top: 518px;
+
+  background: #D9D9D9;
+}
+
+.precio_aportar_sesenta:hover {
+  background: #b0a3db;
+  color: white;
+}
+
+.precio_aportar_sesenta h3 {
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_sesenta p {
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_noventa {
+
+  width: 226px;
+  height: 123px;
+  left: 1385px;
+  top: 518px;
+
+  background: #D9D9D9;
+}
+
+.precio_aportar_noventa:hover {
+  background: #b0a3db;
+  color: white;
+}
+
+.precio_aportar_noventa h3 {
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.precio_aportar_noventa p {
+    font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+} */
+
+.colocacion_pedir_datos {
+  width: 100%;
+  margin-top: 90px;
+}
+
+.justify_inputs {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.titulo_datos_personales {
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  grid-auto-columns: min-content;
+  justify-content: center;
+  height: 100px;
+
+    
+
+
+}
+
+.titulo_datos_personales h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.posicio_central_dineral {
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(80, 20, 20);
+
+}
+
+.cajas_pedirdatos {
+  flex-wrap: wrap;
+  padding: 1em;
+  font-size: 1.2em;
+
+  width: 211px;
+  height: 36px;
+  left: 684px;
+  top: calc(50% - 36px/2 + 318px);
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-size: 1.3em;
+  margin-bottom: 1.2em;
+}
+
+.cajas_pedirdatos_email {
+  flex-wrap: wrap;
+  padding: 1em;
+  font-size: 1.2em;
+
+  width: 281px;
+  height: 36px;
+  left: 684px;
+  top: calc(50% - 36px/2 + 318px);
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-size: 1.3em;
+  margin-bottom: 1.2em;
+}
+
+.cajas_pedirdatos_telefono {
+  flex-wrap: wrap;
+  padding: 1em;
+  font-size: 1.2em;
+
+  width: 180px;
+  height: 36px;
+  left: 684px;
+  top: calc(50% - 36px/2 + 318px);
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-size: 1.3em;
+  margin-bottom: 1.2em;
+}
+
+.cajas_pedirdatos_button {
+
+  gap: 1em;
+  font-size: 1.2em;
+  height: 2em;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4b95bdbb;
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.cajas_pedirdatos_button:hover {
+  color: white;
+  background: blue;
+}
+
+
+.cajas_pedirdatos_nif {
+  flex-wrap: wrap;
+  padding: 1em;
+  font-size: 1.2em;
+
+  width: 161px;
+  height: 36px;
+  left: 684px;
+
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-size: 1.3em;
+  margin-bottom: 1.2em;
+}
+
+.cajas_pedirdatos_apellidos {
+  flex-wrap: wrap;
+  padding: 1em;
+  font-size: 1.2em;
+
+  width: 211px;
+  height: 36px;
+  left: 684px;
+
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-size: 1.3em;
+  margin-bottom: 1.2em;
+}
+
+.cajas_pedirdatos_nombre {
+
+  padding: 1em;
+  font-size: 1.2em;
+
+  width: 140px;
+  height: 36px;
+  left: 684px;
+  top: calc(50% - 36px/2 + 318px);
+
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-size: 1.3em;
+  margin-bottom: 1.2em;
+}
+
+.delegacion_de_barcelona {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  margin-top: 3em;
+}
+
+.delegacion_de_barcelona h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.location_map_frame {
+  display: flex;
+  margin-left: 27.2%;
+
+  width: 1190px;
+  height: 488px;
+
+
+  background: #3F436F;
+  border: 2px solid black;
+}
+
+.location_map_frame iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.carta_contacto_datos {
+  /* position: absolute; */
+  width: 435px;
+  height: 373px;
+  margin-left: 300px;
+
+  background: #B4D6FE;
+}
+
+
+.carta_contacto_datos h3 {
+  margin-top: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  padding: 50px;
+  color: #e7f1f1;
+  background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12I8Xj.img");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.carta_contacto_datos p {
+  font-family:Georgia;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  line-height: 3em;
+  color: #363d9e;
+
+}
+
+.siguenos_en_redes_sociales {
+    
+  text-align: center;
+  width: 100%;
+}
+
+/* CREATE ARTICLE */
+
+.caja_nombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create_article_author {
+  box-sizing: border-box;
+  font-size: 1.2em;
+  padding: 1em;
+
+  width: 621px;
+  height: 50px;
+  background: #fffffff6;
+
+  border-left: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.caja_momento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create_article_fecha {
+  box-sizing: border-box;
+  font-size: 1.2em;
+
+  width: 148px;
+  height: 50px;
+
+
+  background: #fffffff6;
+
+  border-left: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.create_article_adjuntar {
+  box-sizing: border-box;
+
+
+  width: 300px;
+  height: 50px;
+
+  background: #fffffff6;
+
+  border-left: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.caja_titulo {
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+
+.create_article_titular {
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 1.5em;
+  color: black;
+
+  width: 621px;
+  height: 47px;
+
+  padding: 1em;
+  background: #fffffff6;
+
+  border-left: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.caja_texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#info_input_text_area {
+    
+  /* padding: 1em; */
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  width: 645px;
+  height: 249px;
+  padding: 1em;
+
+
+  background: #fffffff6;
+  background-blend-mode: luminosity;
+  border-left: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.info {
+  width: 100%;
+  height: 78%;
+  justify-content: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.425);
+}
+
+.info h3 {
+  text-align: center;
+}
+
+.imagen_home_ong {
+  width: 100%;
+  height: 40%;
+  background-image: url("https://static3.elcorreo.com/www/multimedia/202004/22/media/cortadas/hambruna-k2sG-U1001010162107TrE-1248x770@El%20Correo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.contenido_parrafo_home {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colabora_ahora_con_nosotros {
+  margin-left: 100px;
+  margin-bottom: 3em;
+}
+
+/* button aceptar crear articulo*/
+.centro_inputs {
+  opacity: 2;
+  padding: 2em;
+  display: grid;
+  gap: 0.2em;
+  background-image: url("https://media.istockphoto.com/id/1399617228/es/foto/mapa-del-mundo-hecho-de-granos-de-trigo-continentes-de-granos-concepto-de-escasez-mundial-de.jpg?b=1&s=170667a&w=0&k=20&c=kFm9VznJGfh3Z0eGyqlXiO2IzcxdpqhJT_FNzApZH_0=");
+  margin-left: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+
+.caja_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.button_confirmar {
+
+  width: 134px;
+  height: 41px;
+
+
+  background: #6FBD4B;
+  font-size: 1.2em;
+  color: white;
+}
+
+.button_cancelar {
+
+  width: 134px;
+  height: 41px;
+  background: #B73F3F;
+  font-size: 1.2em;
+  color: white;
+
+}
+
+.contactar_por_email_contact {
+  width: 100%;
+  height: 300px;
+    
+  background-color: red;
+}
+
+/* contactaremail_message */
+
+
+.formulario_contactaremail {
+  display: grid;
+  grid-template-columns: max-content;
+  width: 100%;
+  justify-content: center;
+  height: 300px auto;
+
+  padding: 2em;
+  gap: 1em;
+  align-items: center;
+}
+
+.formulario_contactaremail input {
+
+  background: #E3F2FD;
+  border-left: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 621px;
+  height: 47px;
+  padding: 1em;
+}
+
+.formulario_contactaremail textarea {
+  width: 645px;
+  height: 249px;
+  padding: 2em;
+
+
+
+  background: #FFFFFF;
+  background-blend-mode: luminosity;
+  border-left: 1px solid #000000;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.contacta_imagen_emailmessage {
+  width: 432px;
+  height: 372px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linea_horizontal {
+  width: 100%;
+
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2em;
+  margin-left: 100px;
+  background-color: beige;
+  align-items: center;
+    
+}
+
+.linea_horizontal h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 26px;
+}
+
+.img-email-enviar_foto_ong {
+width: 100%;
+    
+  margin-top: 2em;
+  height: 500px;
+  align-items: center;
+    margin-left: 100px;
+  background-image: url("https://www.gratistodo.com/wp-content/uploads/2016/09/Barcelona-3.jpg");
+}
+
+.llamada {
+  background-image: url("https://ml2uoy1gdkoo.i.optimole.com/fwSvAkE-aaKymk1F/w:1000/h:1000/q:auto/http://centralvanperu.com/wp-content/uploads/2019/05/boton_llamada.gif");
+}

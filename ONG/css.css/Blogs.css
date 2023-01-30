@@ -1,0 +1,155 @@
+
+.capa_autor_promocion {
+    position: absolute;
+    width: 90%;
+    height: 800px;
+    margin-left: 10px;
+    top: 245px;
+    background-color: rgba(224, 190, 69, 0.349);
+
+    background: rgba(137, 30, 133, 0.15);
+    border-radius: 185px;
+}
+
+.mama {
+   
+    width: 823.45px auto;
+    height: 645.72px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+
+    padding: 1em;
+   
+}
+
+.mama h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.mama h6 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+}
+
+.mama p {
+
+    width: 823.45px;
+    height: 399.01px;
+    left: 264.88px;
+    top: 584.1px;
+
+    font-family:  'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.mama img {
+
+    width: 823.45px;
+    height: 236.56px;
+    left: 264.88px;
+    top: 274.44px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.socio {
+    
+    width: 352.68px;
+    height: 766.54px;
+
+
+}
+
+.socio p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 2em;
+    color: #000000;
+
+
+}
+
+.socio img {
+    display: flex;
+    width: 352.68px;
+    bottom: 0px;
+
+}
+
+.texto {
+
+    width: 352.68px;
+    border-radius: 2px solid black;
+    background-image: url("https://www.publicdomainpictures.net/pictures/140000/velka/banner-header-1449745071UBW.jpg");
+   
+    left: 1225.72px;
+    top: 334.34px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 2em;
+    color: #ffffff;
+
+}
+.texto p{
+    color: white;
+
+
+
+}
+.tus_articulos_new_article{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    /* margin-left: 400px; */
+    background-image: url("https://www.publicdomainpictures.net/pictures/140000/velka/banner-header-1449745071UBW.jpg");
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    color: white;
+    margin-left: 100px;
+}
+.mama_socio_texto{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    background-color: white;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.contacta_a_nosotros{
+    margin-left: 200px;
+    width: 80%;
+}
+.inf_contacto{
+    width: 100%;
+    height: 100%;
+    color: rgb(8, 4, 24);
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/12/18/13/marker-3314279_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enviar_email_contacto:hover {
+background-color: purple;
+}
